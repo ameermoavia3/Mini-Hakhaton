@@ -1,0 +1,39 @@
+.color {
+    color: green;
+    
+}
+
+.width {
+    width: 100px;
+}
+
+.font {
+    width: 150px;
+    height: 40px;
+}
+
+.custom {
+    margin-top: 130px;
+}
+
+.age {
+    margin-left: 10px;
+}
+
+.height {
+    height: 400px;
+}
+
+.last {
+    padding-top: 100px;
+    height: 650px;
+}
+
+/* 7 columns ka custom layout */
+@media (min-width: 768px) {  /* md screen and up */
+  .custom-logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+  }
+}
