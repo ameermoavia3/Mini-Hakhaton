@@ -20,6 +20,24 @@
       padding-top: 20px;
     }
   }
+
+  /* Large screen height */
+  @media (min-width: 992px) {
+    .footer-section {
+      padding-top: 100px;  /* kam height */
+      padding-bottom: 200px;
+    }
+  }
+
+  /* Medium and small screen height */
+  @media (max-width: 991.98px) {
+    .footer-section {
+      padding-top: 10px; /* zyada height */
+      padding-bottom: 80px;
+      background-color: black;
+      height: 650px;
+    }
+  }
 </style>
 
 </head>
@@ -343,12 +361,12 @@
 
   <!-- last section  -->
         
-  <div class="bg-black last">
+  <div class="bg-black last footer-section ">
   <div class="container">
     <div class="row text-white gy-5">
       
       <!-- Column 1: Logo and Social Links -->
-      <div class="col-sm-4 col-md-3">
+      <div class="col-sm-4 col-md-3 pt-5">
         <img src="Images/asssets/nexcent_text_white.png" style="width: 200px;" alt="">
         <p class="mt-4 text-white-50 mb-1">copyright © 2020 Nexcent ltd.</p>
         <p class="text-white-50">All rights reserved</p>
@@ -361,10 +379,10 @@
       </div>
 
       <!-- Column 2, 3, 4 together -->
-      <div class="col-sm-8 col-md-9">
+      <div class="col-sm-9 col-md-10 col-lg-8 pb-lg-5 pt-5 ">
         <div class="row gy-4">
           
-          <!-- Company -->
+          
           <div class="col-6 col-md-4">
             <h5 class="fw-bold mb-3">Company</h5>
             <div class="d-flex flex-column gap-2">
@@ -377,7 +395,7 @@
           </div>
 
           <!-- Support -->
-          <div class="col-6 col-md-4">
+          <div class="col-6 col-md-4 move">
             <h5 class="fw-bold mb-3">Support</h5>
             <div class="d-flex flex-column gap-2">
               <a href="#" class="text-white-50 text-decoration-none">Help center</a>
